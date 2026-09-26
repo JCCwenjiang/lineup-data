@@ -41,6 +41,14 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 function seasonOf(d){return d.season || (d.cat==='s165'?'s165':d.cat==='s11'?'s11':'s18');}
 function tierClass(d){return d.banned?'tier-muted':({'T0+':'tier-t0plus','T0':'tier-t0','T0-':'tier-t0minus','T1+':'tier-t1plus','T1':'tier-t1','T1-':'tier-t1minus'}[d.tier]||'tier-muted');}
 function playTags(d){return Array.isArray(d.tags)?[...new Set(d.tags.filter(t=>['娱乐','赌狗'].includes(t)))]:[];}
+
+function versionParts(v){const m=String(v||'').match(/(\d+)\.(\d+)([a-z]*)/i);return m?[Number(m[1]),Number(m[2]),m[3].toLowerCase()]:[0,0,''];}
+function compareLineups(a,b){
+ const time=d=>Number.isFinite(Date.parse(d.publishedAt))?Date.parse(d.publishedAt):0;
+ const recent=time(b)-time(a);if(recent)return recent;
+ const av=versionParts(a.ver),bv=versionParts(b.ver);
+ return bv[0]-av[0]||bv[1]-av[1]||bv[2].localeCompare(av[2]);
+}
 function inTab(d,tab){return tab==='all'||(tab==='rec'?d.isRec&&!d.banned&&!d.pending&&d.cat!=='hist':d.cat===tab);}
 function parseData(text){
  const match=text.match(/window\.LINEUP_DATA\s*=\s*(\[[\s\S]*?\]);/);
@@ -58,10 +66,10 @@ function renderTabs(){
 }
 function renderList(){
  const q=state.query.trim().toLowerCase(),seasonRows=data.filter(d=>seasonOf(d)===state.season);
- const rows=seasonRows.filter(d=>inTab(d,state.tab)&&(!q||(d.n+' '+(d.note||'')+' '+playTags(d).join(' ')).toLowerCase().includes(q)));
+ const rows=seasonRows.filter(d=>inTab(d,state.tab)&&(!q||(d.n+' '+(d.note||'')+' '+playTags(d).join(' ')).toLowerCase().includes(q))).sort(compareLineups);
  $('count').textContent=`${{s18:'S18',s165:'S16.5',s11:'S11'}[state.season]} · 收录 ${seasonRows.length} 条 · 当前显示 ${rows.length} 条`;
  if(!rows.length){$('list').innerHTML=`<div class="empty">${!loaded?'暂未读取到阵容，请点击“检查更新”。':!seasonRows.length?'本赛季阵容整理中，先看看其他赛季吧。':'没有找到匹配的阵容。试试清空关键词或切换分类。'}</div>`;return;}
- $('list').innerHTML=rows.map(d=>{const i=data.indexOf(d),disabled=d.banned||d.pending;return `<article class="card"><h2>${esc(d.n)}</h2><div class="badges"><span class="badge">${esc(d.ver||'版本待补充')}</span><span class="badge tier ${tierClass(d)}">${esc(d.banned?'已禁用':d.tier||'未评级')}</span>${d.cat==='hist'?'<span class="badge history">历史资料</span>':''}${d.isRec&&d.cat!=='hist'&&!disabled?'<span class="badge history">推荐</span>':''}${d.cat==='hex'?'<span class="badge">海克斯专属</span>':''}${playTags(d).map(t=>'<span class="badge '+(t==='娱乐'?'play-fun':'play-reroll')+'">'+esc(t)+'</span>').join('')}</div><p class="note">${esc(d.note||'暂无补充说明')}</p><button class="copy" data-copy="${i}" ${disabled?'disabled':''}>${d.banned?'已禁用，请勿使用':d.pending?'阵容码待更新':'复制阵容码'}</button>${disabled?'':`<details class="code" id="code-${i}"><summary>查看阵容码 / 手动复制</summary><textarea readonly aria-label="${esc(d.n)}的完整阵容码">${esc(d.code)}</textarea></details>`}</article>`;}).join('');
+ $('list').innerHTML=rows.map(d=>{const i=data.indexOf(d),disabled=d.banned||d.pending;return `<article class="card"><h2>${esc(d.n)}</h2><div class="badges"><span class="badge">${esc(d.ver||'版本待补充')}</span><span class="badge tier ${tierClass(d)}">${esc(d.banned?'已禁用':d.tier||'未评级')}</span>${d.isRec&&d.cat!=='hist'&&!disabled?'<span class="badge history">推荐</span>':''}${d.cat==='hex'?'<span class="badge">海克斯专属</span>':''}${playTags(d).map(t=>'<span class="badge '+(t==='娱乐'?'play-fun':'play-reroll')+'">'+esc(t)+'</span>').join('')}</div><p class="note">${esc(d.note||'暂无补充说明')}</p><button class="copy" data-copy="${i}" ${disabled?'disabled':''}>${d.banned?'已禁用，请勿使用':d.pending?'阵容码待更新':'复制阵容码'}</button>${disabled?'':`<details class="code" id="code-${i}"><summary>查看阵容码 / 手动复制</summary><textarea readonly aria-label="${esc(d.n)}的完整阵容码">${esc(d.code)}</textarea></details>`}</article>`;}).join('');
 }
 function render(){renderTabs();renderList();}
 function toast(text){$('toast').textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').textContent='',3500);}
