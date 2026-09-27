@@ -1,5 +1,4 @@
-/* 蚊酱阵容库 · 网页数据 */
-window.LINEUP_DATA=[
+window.LINEUP_DATA = [
   {
     "n": "S18螳螂蜘蛛",
     "mainC": [
@@ -10,7 +9,7 @@ window.LINEUP_DATA=[
     "note": "最强3费刺客，6狂战士猛猛上分",
     "code": "#S18螳螂蜘蛛（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNDc2ODM5NjYz",
     "season": "s18",
-    "ver": "V18.2A",
+    "ver": "V18.2a",
     "cat": "cur",
     "isRec": true,
     "isRune": false,
@@ -29,7 +28,7 @@ window.LINEUP_DATA=[
     "note": "最强95阵容，没有地狱火转不要硬玩",
     "code": "#S18地狱火巨龙95（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNDc3NDA2MjY4",
     "season": "s18",
-    "ver": "V18.2A",
+    "ver": "V18.2a",
     "cat": "cur",
     "isRec": true,
     "isRune": false,
