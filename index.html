@@ -59,9 +59,9 @@ function isRune(d){return typeof d.isRune==='boolean'?d.isRune:d.cat==='hex';}
 function inTab(d,tab){if(tab==='all')return true;if(tab==='rec')return d.isRec===true;if(tab==='hex')return isRune(d);const latest=latestKey(),current=!!latest&&versionKey(d.ver)===latest;return tab==='cur'?current:tab==='hist'?!current:false;}
 function dateText(d){const raw=d.updatedAt||d.publishedAt,ms=Date.parse(raw);if(!Number.isFinite(ms))return '时间未记录';const t=new Date(ms+28800000),pad=n=>String(n).padStart(2,'0');return (d.updatedAt?'更新于 ':'发布于 ')+t.getUTCFullYear()+'-'+pad(t.getUTCMonth()+1)+'-'+pad(t.getUTCDate())+' '+pad(t.getUTCHours())+':'+pad(t.getUTCMinutes())+':'+pad(t.getUTCSeconds());}
 function parseData(text){
- const match=text.match(/window\.LINEUP_DATA\s*=\s*(\[[\s\S]*?\]);/);
- if(!match)throw new Error('未识别到阵容数据');
- const rows=JSON.parse(match[1]);
+ const payload=JSON.parse(text);
+ if(payload.schemaVersion!==1||typeof payload.revision!=='string')throw new Error('数据格式不正确');
+ const rows=payload.rows;
  if(!Array.isArray(rows))throw new Error('阵容数据格式不正确');
  for(const d of rows){if(!d||typeof d.n!=='string'||!d.n.trim()||typeof d.cat!=='string'||!['cur','hex','hist','s165','s11'].includes(d.cat)||typeof d.code!=='string'||(!d.code.trim()&&!d.pending&&!d.banned))throw new Error('阵容条目不完整');}
  return rows.map(d=>({...d,ver:versionKey(d.ver)||d.ver}));
@@ -99,14 +99,14 @@ async function loadData(manual=false){
  if(busy)return;busy=true;$('refresh').disabled=true;$('refresh').textContent='检查中…';
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
  try{
-  const response=await fetch('./data.js?t='+Date.now(),{cache:'no-store',signal:controller.signal});
+  const response=await fetch('./lineups.json?t='+Date.now(),{cache:'no-store',signal:controller.signal});
   if(!response.ok)throw new Error('数据请求失败');
   const text=await response.text(),rows=parseData(text),payload=JSON.stringify(rows),changed=payload!==lastPayload;
   data=rows;loaded=true;lastPayload=payload;$('error').hidden=true;
   $('sync').textContent='已同步';
   if(changed)render();if(manual)toast(changed?'已载入最新阵容':'已检查，阵容内容暂无变化');
  }catch{
-  $('error').hidden=false;$('error').textContent=loaded?'暂时无法检查更新，当前保留上次成功读取的阵容，请稍后重试。':location.protocol==='file:'?'本地双击无法读取数据。请把 index.html 与 data.js 放在同一网站目录，再通过网站链接打开。':'阵容读取失败。请稍后点击“检查更新”；若持续失败，请联系作者检查数据文件。';
+  $('error').hidden=false;$('error').textContent=loaded?'暂时无法检查更新，当前保留上次成功读取的阵容，请稍后重试。':location.protocol==='file:'?'本地双击无法读取数据。请把 index.html 与 lineups.json 放在同一网站目录，再通过网站链接打开。':'阵容读取失败。请稍后点击“检查更新”；若持续失败，请联系作者检查数据文件。';
   if(!loaded){$('sync').textContent='尚未读取成功';renderList();}
  }finally{clearTimeout(timer);busy=false;$('refresh').disabled=false;$('refresh').textContent='刷新';}
 }
