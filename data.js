@@ -1,5 +1,62 @@
 window.LINEUP_DATA = [
   {
+    "n": "S18黑色螳螂",
+    "mainC": [
+      "螳螂"
+    ],
+    "tags": [
+      "转职"
+    ],
+    "note": "开局有黑荆棘纹章必玩系列。",
+    "code": "#S18黑色螳螂（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNTkwMTQ1Mjkw",
+    "season": "s18",
+    "ver": "V18.2a",
+    "tier": "T0",
+    "cat": "cur",
+    "isRec": true,
+    "isRune": false,
+    "publishedAt": "2026-09-28T10:21:21.768Z"
+  },
+  {
+    "n": "S18裁决龙皇",
+    "mainC": [
+      "沙皇",
+      "龙龟",
+      "阿兹尔",
+      "拉莫斯"
+    ],
+    "tags": [
+      "赌狗"
+    ],
+    "note": "开局装备偏法系，给沙皇/龙龟。",
+    "code": "#S18裁决龙皇（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNTg5NzM1Nzc2",
+    "season": "s18",
+    "ver": "V18.2a",
+    "tier": "T0",
+    "cat": "cur",
+    "isRec": true,
+    "isRune": false,
+    "publishedAt": "2026-09-28T10:21:21.768Z"
+  },
+  {
+    "n": "S18峡谷重装巨龙",
+    "mainC": [
+      "远古巨龙"
+    ],
+    "tags": [
+      "运营"
+    ],
+    "note": "重装月男改版，目前最强5费就是巨龙，搭配4重装5野怪。",
+    "code": "#S18峡谷重装巨龙（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNTg5NDMzODk2",
+    "season": "s18",
+    "ver": "V18.2a",
+    "tier": "T0",
+    "cat": "cur",
+    "isRec": true,
+    "isRune": false,
+    "publishedAt": "2026-09-28T10:21:21.768Z"
+  },
+  {
     "n": "S18螳螂蜘蛛",
     "mainC": [
       "螳螂",
