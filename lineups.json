@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-09-29T11:59:58.000Z",
+  "revision": "2026-09-29T13:24:09.589Z",
   "rows": [
     {
       "n": "S18裁决龙皇",
@@ -19,7 +19,7 @@
       "ver": "V18.2a",
       "tier": "T0+",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "isRune": false,
       "publishedAt": "2026-09-28T10:21:21.768Z",
       "updatedAt": "2026-09-28T15:29:20.000Z"
@@ -38,7 +38,7 @@
       "ver": "V18.2a",
       "tier": "T0",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "isRune": false,
       "publishedAt": "2026-09-28T10:21:21.768Z"
     },
@@ -56,7 +56,7 @@
       "ver": "V18.2a",
       "tier": "T0",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "isRune": false,
       "publishedAt": "2026-09-28T10:21:21.768Z"
     },
@@ -72,7 +72,7 @@
       "season": "s18",
       "ver": "V18.2a",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "isRune": false,
       "tags": [
         "赌狗"
@@ -91,7 +91,7 @@
       "season": "s18",
       "ver": "V18.2a",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "isRune": false,
       "tags": [
         "赌狗"
@@ -116,7 +116,7 @@
       "ver": "V18.2a",
       "tier": "T0+",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "note": "目前版本特别适合偷分的一套阵容",
       "code": "#S18月男豹女2.0（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwMDQ2MzY2MjU0"
     },
@@ -125,7 +125,7 @@
       "ver": "V18.2",
       "tier": "T0",
       "cat": "cur",
-      "isRec": true,
+      "isRec": false,
       "note": "有转必玩，当前版本最强转职体系阵容",
       "code": "#蚊酱S18「地狱火希维尔」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5Mjc4NjIzNDMx"
     },
@@ -230,7 +230,7 @@
       "ver": "V18.2a",
       "tier": "T0+",
       "cat": "hex",
-      "isRec": true,
+      "isRec": false,
       "note": "海克斯专属阵容，没有别硬玩",
       "code": "#S18黑暗仪式蜘蛛（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwMjM5MDk1NDU3"
     },
@@ -272,7 +272,7 @@
       "ver": "V18.1c",
       "tier": "T0-",
       "cat": "hist",
-      "isRec": true,
+      "isRec": false,
       "note": "强势2费阵容",
       "code": "#蚊酱S18「主宰颗秒女警」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NzY0MjY0Mzc0"
     },
@@ -289,7 +289,7 @@
       "ver": "V18.1c",
       "tier": "T0+",
       "cat": "hist",
-      "isRec": true,
+      "isRec": false,
       "note": "最强皎月新玩法",
       "code": "#蚊酱S18「重装皎月2.0」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NTExODU3NzA0"
     },
@@ -298,7 +298,7 @@
       "ver": "V18.1c",
       "tier": "T0",
       "cat": "hist",
-      "isRec": true,
+      "isRec": false,
       "note": "适合把把硬玩",
       "code": "#大红和大蓝#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NDExNDA1NTM5"
     },
@@ -665,5 +665,6 @@
       "publishedAt": "2026-09-29T11:59:58.000Z",
       "code": "#S11夜幽拉露恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMzM1MjM4"
     }
-  ]
+  ],
+  "announcement": "阵容码请在对应赛季导入使用，跨赛季无法通用。好用的阵容，也欢迎分享给朋友。"
 }
