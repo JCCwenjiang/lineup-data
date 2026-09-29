@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-09-29T13:24:09.589Z",
+  "revision": "2026-09-29T13:58:51.613Z",
   "rows": [
     {
       "n": "S18裁决龙皇",
@@ -666,5 +666,5 @@
       "code": "#S11夜幽拉露恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMzM1MjM4"
     }
   ],
-  "announcement": "阵容码请在对应赛季导入使用，跨赛季无法通用。好用的阵容，也欢迎分享给朋友。"
+  "announcement": "阵容码请在对应赛季导入，跨赛季无法通用。好用的阵容，也欢迎分享给朋友。"
 }
