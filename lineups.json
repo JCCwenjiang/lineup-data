@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-09-28T15:29:20.000Z",
+  "revision": "2026-09-29T11:59:58.000Z",
   "rows": [
     {
       "n": "S18裁决龙皇",
@@ -550,6 +550,120 @@
       "pending": true,
       "note": "奥恩开局可以搭配以上任意阵容玩，因为恭喜发财最不缺的就是装备",
       "code": ""
+    },
+    {
+      "n": "S11圣贤阿木木",
+      "mainC": [
+        "阿木木"
+      ],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "开服必玩"
+      ],
+      "note": "不死流阿木木，强势3费，开荒必玩。",
+      "publishedAt": "2026-09-29T11:59:58.000Z",
+      "code": "#S11圣贤阿木木（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgxOTc2MDcy"
+    },
+    {
+      "n": "S11剪纸巴德",
+      "mainC": [
+        "巴德"
+      ],
+      "aliases": [
+        "巴徳"
+      ],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "开服必玩"
+      ],
+      "note": "S11今天返场必玩系列。",
+      "publishedAt": "2026-09-29T11:59:58.000Z",
+      "code": "#S11剪纸巴徳（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgxODkxNzk4"
+    },
+    {
+      "n": "S11剪纸天使",
+      "mainC": [
+        "天使"
+      ],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "转职"
+      ],
+      "note": "老玩家应该不用教，推荐有剪纸转或者有冒险启程并且胡剪纸牌时玩。",
+      "publishedAt": "2026-09-29T11:59:58.000Z",
+      "code": "#S11剪纸天使（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMTQ1OTI5"
+    },
+    {
+      "n": "S11斗射卡莎",
+      "mainC": [
+        "卡莎"
+      ],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "开服必玩"
+      ],
+      "note": "S11最经典的阵容！推荐吃吉星或者装备多打出连胜时去玩！",
+      "publishedAt": "2026-09-29T11:59:58.000Z",
+      "code": "#S11斗射卡莎（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMTgwMDA2"
+    },
+    {
+      "n": "S11天龙九五",
+      "mainC": [],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "九五"
+      ],
+      "note": "S11最强九五，定位赛首选。",
+      "publishedAt": "2026-09-29T11:59:58.000Z",
+      "code": "#S11天龙九五（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMjUxNDIy"
+    },
+    {
+      "n": "S11夜幽拉露恩",
+      "mainC": [
+        "拉露恩"
+      ],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "转职"
+      ],
+      "note": "推荐有夜幽转，或者前期连胜装备合适8人口有瑟提玩。",
+      "publishedAt": "2026-09-29T11:59:58.000Z",
+      "code": "#S11夜幽拉露恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMzM1MjM4"
     }
   ]
 }
