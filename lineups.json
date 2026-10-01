@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-09-29T13:58:51.613Z",
+  "revision": "2026-10-01T08:26:41.023Z",
   "rows": [
     {
       "n": "S18裁决龙皇",
@@ -116,7 +116,7 @@
       "ver": "V18.2a",
       "tier": "T0+",
       "cat": "cur",
-      "isRec": false,
+      "isRec": true,
       "note": "目前版本特别适合偷分的一套阵容",
       "code": "#S18月男豹女2.0（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwMDQ2MzY2MjU0"
     },
@@ -135,7 +135,8 @@
       "tier": "T0-",
       "cat": "cur",
       "note": "独家赌狗天花板，高分段把把有分",
-      "code": "#S18日蚀妖姬2.0（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwMDQ5MzE3NzM5"
+      "code": "#S18日蚀妖姬2.0（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwMDQ5MzE3NzM5",
+      "isRec": false
     },
     {
       "n": "迫击炮5神谕大嘴",
@@ -143,7 +144,8 @@
       "tier": "T0-",
       "cat": "cur",
       "note": "同行多不建议玩，体系牌来的慢难吃分",
-      "code": "#迫击炮5神谕大嘴（蚊酱）#MjE5OTEzMzc4ODgxMDY5MTMxNzg5NzAxOTUyMTc0"
+      "code": "#迫击炮5神谕大嘴（蚊酱）#MjE5OTEzMzc4ODgxMDY5MTMxNzg5NzAxOTUyMTc0",
+      "isRec": false
     },
     {
       "n": "主宰Flex",
@@ -151,7 +153,8 @@
       "tier": "T0-",
       "cat": "cur",
       "note": "目前最强主宰体系牌，同行多不建议玩",
-      "code": "#主宰Flex（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5NTU0MDQzNjgx"
+      "code": "#主宰Flex（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5NTU0MDQzNjgx",
+      "isRec": false
     },
     {
       "n": "终身黄铜巨龙",
@@ -159,7 +162,8 @@
       "tier": "T0",
       "cat": "cur",
       "note": "终身黄铜叠加23%增伤",
-      "code": "#黄铜巨龙（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5NDQ4MzQ5NzI2"
+      "code": "#黄铜巨龙（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5NDQ4MzQ5NzI2",
+      "isRec": false
     },
     {
       "n": "443希维尔",
@@ -167,7 +171,8 @@
       "tier": "T0",
       "cat": "cur",
       "note": "最公式玩法，无脑上分必选",
-      "code": "#443希维尔（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5NDUzOTE4MDU1"
+      "code": "#443希维尔（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5NDUzOTE4MDU1",
+      "isRec": false
     },
     {
       "n": "寒冰巨龙95",
@@ -175,7 +180,8 @@
       "tier": "T0",
       "cat": "cur",
       "note": "当前版本最无脑95玩法",
-      "code": "#S18寒冰巨龙95（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5Mzc5OTk0NDg4"
+      "code": "#S18寒冰巨龙95（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5Mzc5OTk0NDg4",
+      "isRec": false
     },
     {
       "n": "野怪蛙妃",
@@ -183,7 +189,8 @@
       "tier": "T1",
       "cat": "cur",
       "note": "7野怪最新吃分玩法",
-      "code": "#蚊酱S18「野怪蛙妃」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5Mjg1MjA3NjQ5"
+      "code": "#蚊酱S18「野怪蛙妃」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5Mjg1MjA3NjQ5",
+      "isRec": false
     },
     {
       "n": "S18月男豹女",
@@ -191,7 +198,8 @@
       "tier": "T0-",
       "cat": "cur",
       "note": "拼多多月男，8人口启动",
-      "code": "#S18月男豹女（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MzczOTQ0NjQz"
+      "code": "#S18月男豹女（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MzczOTQ0NjQz",
+      "isRec": false
     },
     {
       "n": "拉露恩95",
@@ -199,7 +207,8 @@
       "tier": "T0",
       "cat": "cur",
       "note": "赌狗必玩，版本更新后最强95阵容",
-      "code": "#蚊酱S18「拉露恩95」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MTE1NzEwNjc3"
+      "code": "#蚊酱S18「拉露恩95」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MTE1NzEwNjc3",
+      "isRec": false
     },
     {
       "n": "闭环妖姬",
@@ -207,7 +216,8 @@
       "tier": "T0",
       "cat": "cur",
       "note": "无限复制友军，后期更容易追3星4费",
-      "code": "#蚊酱S18「闭环妖姬」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MDMzNDg4NjUx"
+      "code": "#蚊酱S18「闭环妖姬」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MDMzNDg4NjUx",
+      "isRec": false
     },
     {
       "n": "日蚀阿卡丽",
@@ -215,7 +225,8 @@
       "tier": "T1",
       "cat": "cur",
       "note": "简码，晚点上详细思路",
-      "code": "#蚊酱S18「日蚀阿卡丽」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MDIzMDY3MDU2"
+      "code": "#蚊酱S18「日蚀阿卡丽」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg5MDIzMDY3MDU2",
+      "isRec": false
     },
     {
       "n": "重装永恒95",
@@ -223,16 +234,8 @@
       "tier": "T0",
       "cat": "cur",
       "note": "简码，晚点上详细思路",
-      "code": "#蚊酱S18「重装永恒95」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDEyODk3MDQz"
-    },
-    {
-      "n": "S18黑暗仪式蜘蛛",
-      "ver": "V18.2a",
-      "tier": "T0+",
-      "cat": "hex",
-      "isRec": false,
-      "note": "海克斯专属阵容，没有别硬玩",
-      "code": "#S18黑暗仪式蜘蛛（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwMjM5MDk1NDU3"
+      "code": "#蚊酱S18「重装永恒95」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDEyODk3MDQz",
+      "isRec": false
     },
     {
       "n": "好事成双蛇女",
@@ -240,7 +243,8 @@
       "tier": "T0",
       "cat": "hex",
       "note": "海克斯专属",
-      "code": "#蚊酱S18「好事成双蛇女」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NDU3MTU3NjY3"
+      "code": "#蚊酱S18「好事成双蛇女」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NDU3MTU3NjY3",
+      "isRec": false
     },
     {
       "n": "世纪和解",
@@ -248,7 +252,8 @@
       "tier": "T0",
       "cat": "hex",
       "note": "海克斯专属",
-      "code": "#蚊酱S18海克斯专属「世纪和解」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MjE5MDM2MDcz"
+      "code": "#蚊酱S18海克斯专属「世纪和解」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MjE5MDM2MDcz",
+      "isRec": false
     },
     {
       "n": "顺流而下-6级3星5费",
@@ -257,7 +262,8 @@
       "cat": "hist",
       "banned": true,
       "note": "最新版本已经不能玩了",
-      "code": "#蚊酱S18「顺流而下-6级3星5费」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4ODYwNTQwNDE3"
+      "code": "#蚊酱S18「顺流而下-6级3星5费」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4ODYwNTQwNDE3",
+      "isRec": false
     },
     {
       "n": "地狱火寒冰",
@@ -265,7 +271,8 @@
       "tier": "T0+",
       "cat": "hist",
       "note": "刚需地狱火转职纹章",
-      "code": "#蚊酱S18「地狱火寒冰」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NzcxOTI2NDE0"
+      "code": "#蚊酱S18「地狱火寒冰」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NzcxOTI2NDE0",
+      "isRec": false
     },
     {
       "n": "主宰颗秒女警",
@@ -282,7 +289,8 @@
       "tier": "T1",
       "cat": "hist",
       "note": "打钱流狮子狗",
-      "code": "#蚊酱S18「剑圣狮子狗」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NjA3NjA0NTY4"
+      "code": "#蚊酱S18「剑圣狮子狗」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4NjA3NjA0NTY4",
+      "isRec": false
     },
     {
       "n": "重装皎月2.0",
@@ -308,7 +316,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "适合把把硬玩",
-      "code": "#蚊酱S18「日蚀韦鲁斯」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MzQ1MTE5NzYz"
+      "code": "#蚊酱S18「日蚀韦鲁斯」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MzQ1MTE5NzYz",
+      "isRec": false
     },
     {
       "n": "花仙子蜘蛛",
@@ -316,7 +325,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "有转必玩系列",
-      "code": "#蚊酱S18「花仙子蜘蛛」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MjQ4NDU4MjU2"
+      "code": "#蚊酱S18「花仙子蜘蛛」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MjQ4NDU4MjU2",
+      "isRec": false
     },
     {
       "n": "裁决婕拉",
@@ -324,7 +334,8 @@
       "tier": "T0+",
       "cat": "hist",
       "note": "适合把把硬玩",
-      "code": "#蚊酱S18「裁决婕拉」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MjYwNTM1MzE5"
+      "code": "#蚊酱S18「裁决婕拉」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MjYwNTM1MzE5",
+      "isRec": false
     },
     {
       "n": "神谕莫甘娜",
@@ -332,7 +343,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "冷门上分",
-      "code": "#蚊酱S18「神谕莫甘娜」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MTc4NTQxMzQx"
+      "code": "#蚊酱S18「神谕莫甘娜」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MTc4NTQxMzQx",
+      "isRec": false
     },
     {
       "n": "重装月男",
@@ -340,7 +352,8 @@
       "tier": "T0+",
       "cat": "hist",
       "note": "最新84上分阵容",
-      "code": "#蚊酱S18「重装月男」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MTY5ODk3MTU4"
+      "code": "#蚊酱S18「重装月男」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MTY5ODk3MTU4",
+      "isRec": false
     },
     {
       "n": "野怪小红小蓝",
@@ -348,7 +361,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "1费赌狗",
-      "code": "#蚊酱S18「野怪小红小蓝」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MDgzNTU1NjEy"
+      "code": "#蚊酱S18「野怪小红小蓝」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg4MDgzNTU1NjEy",
+      "isRec": false
     },
     {
       "n": "螳螂蛇女2.0",
@@ -356,7 +370,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "依然强势",
-      "code": "#蚊酱S18「螳螂蛇女2.0」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3OTk2MDEzMzA2"
+      "code": "#蚊酱S18「螳螂蛇女2.0」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3OTk2MDEzMzA2",
+      "isRec": false
     },
     {
       "n": "永恒月男",
@@ -364,7 +379,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "新晋84",
-      "code": "#蚊酱S18「永恒月男」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3OTExNjUxNTk3"
+      "code": "#蚊酱S18「永恒月男」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3OTExNjUxNTk3",
+      "isRec": false
     },
     {
       "n": "日月双蚀",
@@ -372,7 +388,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "强势上分",
-      "code": "#蚊酱S18「日月双蚀」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODQyOTc2Mjg0"
+      "code": "#蚊酱S18「日月双蚀」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODQyOTc2Mjg0",
+      "isRec": false
     },
     {
       "n": "护卫蛇女",
@@ -380,7 +397,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "更新后强势3费",
-      "code": "#蚊酱S18「护卫蛇女」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODE0MzY4MTYy"
+      "code": "#蚊酱S18「护卫蛇女」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODE0MzY4MTYy",
+      "isRec": false
     },
     {
       "n": "峡谷巨龙",
@@ -388,7 +406,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "7巨龙95",
-      "code": "#蚊酱S18「峡谷巨龙」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODE0MzQyODA5"
+      "code": "#蚊酱S18「峡谷巨龙」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODE0MzQyODA5",
+      "isRec": false
     },
     {
       "n": "主宰月男",
@@ -396,7 +415,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "冷门偷分",
-      "code": "#蚊酱S18「主宰月男」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODE0MzA1MzI1"
+      "code": "#蚊酱S18「主宰月男」#MjE5OTEzMzc4ODgxMDY5MTMxNzg3ODE0MzA1MzI1",
+      "isRec": false
     },
     {
       "n": "永恒莲华盗宗",
@@ -404,7 +424,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "新晋强势盗宗84",
-      "code": "#蚊酱S18「永恒莲华盗宗」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NzI4OTM1NDE3"
+      "code": "#蚊酱S18「永恒莲华盗宗」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NzI4OTM1NDE3",
+      "isRec": false
     },
     {
       "n": "万盾希维尔",
@@ -412,7 +433,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "献祭流轮子妈",
-      "code": "#蚊酱S18「万盾希维尔」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NzMzMjc1NTQw"
+      "code": "#蚊酱S18「万盾希维尔」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NzMzMjc1NTQw",
+      "isRec": false
     },
     {
       "n": "重装猎人女警",
@@ -420,7 +442,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "2费赌狗",
-      "code": "#蚊酱S18「重装猎人女警」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NDczMDY5NzYz"
+      "code": "#蚊酱S18「重装猎人女警」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3NDczMDY5NzYz",
+      "isRec": false
     },
     {
       "n": "重装月蚀鸡哥",
@@ -428,7 +451,8 @@
       "tier": "T0+",
       "cat": "hist",
       "note": "当前最强3费",
-      "code": "#蚊酱S18「重装鸡哥」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MzkwODA0MDgz"
+      "code": "#蚊酱S18「重装鸡哥」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MzkwODA0MDgz",
+      "isRec": false
     },
     {
       "n": "443双狼",
@@ -436,7 +460,8 @@
       "tier": "T1+",
       "cat": "hist",
       "note": "2费赌狗",
-      "code": "#蚊酱S18「443双狼」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MjE4NjA0MjU2"
+      "code": "#蚊酱S18「443双狼」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MjE4NjA0MjU2",
+      "isRec": false
     },
     {
       "n": "德莱文九五",
@@ -444,7 +469,8 @@
       "tier": "T0-",
       "cat": "hist",
       "note": "最强95",
-      "code": "#蚊酱S18「峡谷德莱文95」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTk0MTk3MjQ5"
+      "code": "#蚊酱S18「峡谷德莱文95」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTk0MTk3MjQ5",
+      "isRec": false
     },
     {
       "n": "重装狮子狗",
@@ -452,7 +478,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "3费赌狗",
-      "code": "#蚊酱S18「重装狮子狗」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTgwNjI4NDUw"
+      "code": "#蚊酱S18「重装狮子狗」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTgwNjI4NDUw",
+      "isRec": false
     },
     {
       "n": "灵魂莲花阿狸",
@@ -460,7 +487,8 @@
       "tier": "T1-",
       "cat": "hist",
       "note": "盗宗84",
-      "code": "#蚊酱S18「7莲花阿狸」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTkxNTg3ODAy"
+      "code": "#蚊酱S18「7莲花阿狸」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTkxNTg3ODAy",
+      "isRec": false
     },
     {
       "n": "裁决芸阿娜",
@@ -468,7 +496,8 @@
       "tier": "T1-",
       "cat": "hist",
       "note": "2费赌狗",
-      "code": "#蚊酱S18「裁决芸阿娜」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTgwMDk5OTM2"
+      "code": "#蚊酱S18「裁决芸阿娜」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTgwMDk5OTM2",
+      "isRec": false
     },
     {
       "n": "永恒天使霞",
@@ -476,7 +505,8 @@
       "tier": "T0",
       "cat": "hist",
       "note": "1费赌狗",
-      "code": "#蚊酱S18「永恒天使霞」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTgwMTI0OTQ0"
+      "code": "#蚊酱S18「永恒天使霞」#MjE5OTkwMzU4Nzg0MzIzNzkxNzg3MTgwMTI0OTQ0",
+      "isRec": false
     },
     {
       "n": "基兰开局",
@@ -484,7 +514,8 @@
       "tier": "T0+",
       "cat": "s165",
       "note": "开局给基兰/奥恩",
-      "code": "#蚊酱S16.5恭喜发财「基兰开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExMTY4NDEy"
+      "code": "#蚊酱S16.5恭喜发财「基兰开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExMTY4NDEy",
+      "isRec": false
     },
     {
       "n": "杰斯开局",
@@ -492,7 +523,8 @@
       "tier": "T0+",
       "cat": "s165",
       "note": "开局杰斯/卢娜",
-      "code": "#蚊酱S16.5恭喜发财「杰斯开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExMzE1NDI3"
+      "code": "#蚊酱S16.5恭喜发财「杰斯开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExMzE1NDI3",
+      "isRec": false
     },
     {
       "n": "千珏开局",
@@ -500,7 +532,8 @@
       "tier": "T0-",
       "cat": "s165",
       "note": "开局千珏",
-      "code": "#蚊酱S16.5恭喜发财（千珏开局）#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExNDE0ODU5"
+      "code": "#蚊酱S16.5恭喜发财（千珏开局）#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExNDE0ODU5",
+      "isRec": false
     },
     {
       "n": "龙女开局",
@@ -508,7 +541,8 @@
       "tier": "T0-",
       "cat": "s165",
       "note": "开局龙女",
-      "code": "#蚊酱S16.5恭喜发财「龙女开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExNjI0NjU5"
+      "code": "#蚊酱S16.5恭喜发财「龙女开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExNjI0NjU5",
+      "isRec": false
     },
     {
       "n": "稻草人开局",
@@ -516,7 +550,8 @@
       "tier": "T0-",
       "cat": "s165",
       "note": "开局稻草人",
-      "code": "#蚊酱S16.5恭喜发财「稻草人开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExNzAwNzA0"
+      "code": "#蚊酱S16.5恭喜发财「稻草人开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExNzAwNzA0",
+      "isRec": false
     },
     {
       "n": "赛娜开局",
@@ -524,7 +559,8 @@
       "tier": "T0-",
       "cat": "s165",
       "note": "赛娜开局",
-      "code": "#蚊酱S16.5恭喜发财「赛娜开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExOTkwNDgw"
+      "code": "#蚊酱S16.5恭喜发财「赛娜开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDExOTkwNDgw",
+      "isRec": false
     },
     {
       "n": "阿兹尔开局",
@@ -532,7 +568,8 @@
       "tier": "T0-",
       "cat": "s165",
       "note": "沙皇开局/恕瑞玛95",
-      "code": "#蚊酱S16.5恭喜发财「阿兹尔开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDEyMDY0MTk2"
+      "code": "#蚊酱S16.5恭喜发财「阿兹尔开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDEyMDY0MTk2",
+      "isRec": false
     },
     {
       "n": "安妮开局",
@@ -540,7 +577,8 @@
       "tier": "T0-",
       "cat": "s165",
       "note": "安妮开局/法师95",
-      "code": "#蚊酱S16.5恭喜发财「安妮开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDEyMTIyNjgw"
+      "code": "#蚊酱S16.5恭喜发财「安妮开局」#MTA5OTk1MjMwNzcxNjIzNTQxNzg5MDEyMTIyNjgw",
+      "isRec": false
     },
     {
       "n": "奥恩开局",
@@ -549,7 +587,8 @@
       "cat": "s165",
       "pending": true,
       "note": "奥恩开局可以搭配以上任意阵容玩，因为恭喜发财最不缺的就是装备",
-      "code": ""
+      "code": "",
+      "isRec": false
     },
     {
       "n": "S11圣贤阿木木",
@@ -568,7 +607,8 @@
       ],
       "note": "不死流阿木木，强势3费，开荒必玩。",
       "publishedAt": "2026-09-29T11:59:58.000Z",
-      "code": "#S11圣贤阿木木（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgxOTc2MDcy"
+      "code": "#S11圣贤阿木木（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNzQyMzAyMjU1",
+      "updatedAt": "2026-10-01T08:24:58.244Z"
     },
     {
       "n": "S11剪纸巴德",
@@ -589,7 +629,8 @@
       ],
       "note": "S11今天返场必玩系列。",
       "publishedAt": "2026-09-29T11:59:58.000Z",
-      "code": "#S11剪纸巴徳（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgxODkxNzk4"
+      "code": "#S11剪纸巴徳（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNzMyNTQ4NDk4",
+      "updatedAt": "2026-10-01T08:24:58.244Z"
     },
     {
       "n": "S11剪纸天使",
@@ -664,6 +705,60 @@
       "note": "推荐有夜幽转，或者前期连胜装备合适8人口有瑟提玩。",
       "publishedAt": "2026-09-29T11:59:58.000Z",
       "code": "#S11夜幽拉露恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMzM1MjM4"
+    },
+    {
+      "n": "S18黑暗仪式蜘蛛",
+      "season": "s18",
+      "cat": "cur",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "mainC": [
+        "蜘蛛"
+      ],
+      "aliases": [],
+      "tags": [],
+      "note": "2-1刷到黑暗仪式必玩，第一波魔女精粹250层收。",
+      "code": "#S18黑暗仪式蜘蛛（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNzU0Nzc0MzI4",
+      "isRec": true,
+      "isRune": true,
+      "runeName": "黑暗仪式",
+      "publishedAt": "2026-10-01T08:24:58.244Z"
+    },
+    {
+      "n": "S18高野怪2.0",
+      "season": "s18",
+      "cat": "cur",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "mainC": [],
+      "aliases": [],
+      "tags": [
+        "版本之子"
+      ],
+      "note": "开局野怪给的多，小蓝能2星，大经济海克斯/一波带走俩。",
+      "code": "#S18高野怪2.0（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwODM3Njg1NDkz",
+      "isRec": true,
+      "isRune": false,
+      "publishedAt": "2026-10-01T08:24:58.244Z"
+    },
+    {
+      "n": "S11山神莉莉娅",
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "mainC": [
+        "莉莉娅"
+      ],
+      "aliases": [],
+      "tags": [
+        "冷门"
+      ],
+      "note": "最新冷门上分T0阵容，也算是一套84盗宗阵容了，后期很容易追3星。",
+      "code": "#S11山神莉莉娅（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwODQyMTU1NDkz",
+      "isRec": true,
+      "isRune": false,
+      "publishedAt": "2026-10-01T08:24:58.244Z"
     }
   ],
   "announcement": "阵容码请在对应赛季导入，跨赛季无法通用。好用的阵容，也欢迎分享给朋友。"
