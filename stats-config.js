@@ -1,0 +1,1 @@
+window.WENJIANG_STATS_URL = 'https://wenjiang-popularity.56100020.workers.dev';
