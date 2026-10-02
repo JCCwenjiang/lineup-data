@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-01T08:26:41.023Z",
+  "revision": "2026-10-02T12:38:16Z",
   "rows": [
     {
       "n": "S18裁决龙皇",
@@ -683,9 +683,10 @@
       "tags": [
         "九五"
       ],
-      "note": "S11最强九五，定位赛首选。",
+      "note": "当前版本最强九五阵容，适合把把硬玩。",
       "publishedAt": "2026-09-29T11:59:58.000Z",
-      "code": "#S11天龙九五（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMjUxNDIy"
+      "code": "#S11天龙九五（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwOTQwMTM1ODcy",
+      "updatedAt": "2026-10-02T12:38:16Z"
     },
     {
       "n": "S11夜幽拉露恩",
