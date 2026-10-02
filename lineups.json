@@ -1,7 +1,25 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-02T12:38:16Z",
+  "revision": "2026-10-02T15:19:37.576Z",
   "rows": [
+    {
+      "n": "S11圣贤鹿娜",
+      "mainC": [],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "运营"
+      ],
+      "note": "当前版本实测下来强度非常在线的一套阵容，冲大师没有问题。",
+      "publishedAt": "2026-10-03T03:03:17.000Z",
+      "updatedAt": "2026-10-03T03:03:17.000Z",
+      "code": "#S11圣贤鹿娜（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwOTQ5NjA0MTEw"
+    },
     {
       "n": "S18裁决龙皇",
       "mainC": [
