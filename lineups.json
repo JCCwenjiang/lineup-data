@@ -1,7 +1,86 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-02T15:19:37.576Z",
+  "revision": "2026-10-07T15:17:38.451Z",
   "rows": [
+    {
+      "n": "S11无限金币9吉星",
+      "mainC": [],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "赌狗"
+      ],
+      "note": "开局有3吉星/吉星转再玩，版本必玩赌狗阵容。",
+      "publishedAt": "2026-10-07T15:17:38.451Z",
+      "updatedAt": "2026-10-07T15:17:38.451Z",
+      "code": "#S11无限金币9吉星（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwOTUzMzkyMDg0"
+    },
+    {
+      "n": "斗射卡莎2.0",
+      "mainC": [
+        "卡莎"
+      ],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T1+",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "推荐"
+      ],
+      "note": "冷门，简单，适合新手，低分段上分可玩，吃鸡强度一般。",
+      "publishedAt": "2026-10-07T15:17:38.450Z",
+      "updatedAt": "2026-10-07T15:17:38.450Z",
+      "code": "#S11斗射卡莎（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkxMzg0NTM5Mzg5"
+    },
+    {
+      "n": "拉鸡龙龟",
+      "mainC": [
+        "龙龟",
+        "沙皇"
+      ],
+      "aliases": [],
+      "season": "s18",
+      "cat": "cur",
+      "ver": "V18.3",
+      "tier": "T0",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "推荐"
+      ],
+      "note": "开局有龙龟/沙皇必玩阵容。",
+      "publishedAt": "2026-10-07T15:17:38.449Z",
+      "updatedAt": "2026-10-07T15:17:38.449Z",
+      "code": "#S18拉鸡龙龟（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkxMzg1NDI1MTc4"
+    },
+    {
+      "n": "天将死神永恩",
+      "mainC": [
+        "永恩"
+      ],
+      "aliases": [],
+      "season": "s11",
+      "cat": "s11",
+      "ver": "V18.3",
+      "tier": "T0",
+      "isRec": true,
+      "isRune": false,
+      "tags": [
+        "推荐"
+      ],
+      "note": "6天将4死神最强永恩！",
+      "publishedAt": "2026-10-07T15:17:38.448Z",
+      "updatedAt": "2026-10-07T15:17:38.448Z",
+      "code": "#S11天将死神永恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkxMzg1NzgyOTg0"
+    },
     {
       "n": "S11圣贤鹿娜",
       "mainC": [],
