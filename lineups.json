@@ -1,45 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-19 V18.4最新推荐更新",
+  "revision": "2026-11-21 S19入口预备（S11已下线）",
   "rows": [
-    {
-      "n": "S11无限金币9吉星",
-      "mainC": [],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "赌狗"
-      ],
-      "note": "开局有3吉星/吉星转再玩，版本必玩赌狗阵容。",
-      "publishedAt": "2026-10-07T15:17:38.451Z",
-      "updatedAt": "2026-10-07T15:17:38.451Z",
-      "code": "#S11无限金币9吉星（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwOTUzMzkyMDg0"
-    },
-    {
-      "n": "斗射卡莎2.0",
-      "mainC": [
-        "卡莎"
-      ],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T1+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "推荐"
-      ],
-      "note": "冷门，简单，适合新手，低分段上分可玩，吃鸡强度一般。",
-      "publishedAt": "2026-10-07T15:17:38.45Z",
-      "updatedAt": "2026-10-07T15:17:38.45Z",
-      "code": "#S11斗射卡莎（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkxMzg0NTM5Mzg5"
-    },
     {
       "n": "拉鸡龙龟",
       "mainC": [
@@ -58,42 +20,6 @@
       "publishedAt": "2026-10-07T15:17:38.449Z",
       "updatedAt": "2026-10-19T02:00:00.000Z",
       "code": "#S18拉鸡龙龟（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkxMzg1NDI1MTc4"
-    },
-    {
-      "n": "天将死神永恩",
-      "mainC": [
-        "永恩"
-      ],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.4",
-      "tier": "T0",
-      "isRec": false,
-      "isRune": false,
-      "tags": [],
-      "note": "6天将4死神最强永恩！",
-      "publishedAt": "2026-10-07T15:17:38.448Z",
-      "updatedAt": "2026-10-19T01:00:00.000Z",
-      "code": "#S11天将死神永恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkxMzg1NzgyOTg0"
-    },
-    {
-      "n": "S11圣贤鹿娜",
-      "mainC": [],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "运营"
-      ],
-      "note": "当前版本实测下来强度非常在线的一套阵容，冲大师没有问题。",
-      "publishedAt": "2026-10-03T03:03:17Z",
-      "updatedAt": "2026-10-03T03:03:17Z",
-      "code": "#S11圣贤鹿娜（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwOTQ5NjA0MTEw"
     },
     {
       "n": "S18裁决龙皇",
@@ -684,123 +610,6 @@
       "isRec": false
     },
     {
-      "n": "S11圣贤阿木木",
-      "mainC": [
-        "阿木木"
-      ],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "开服必玩"
-      ],
-      "note": "不死流阿木木，强势3费，开荒必玩。",
-      "publishedAt": "2026-09-29T11:59:58Z",
-      "code": "#S11圣贤阿木木（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNzQyMzAyMjU1",
-      "updatedAt": "2026-10-01T08:24:58.244Z"
-    },
-    {
-      "n": "S11剪纸巴德",
-      "mainC": [
-        "巴德"
-      ],
-      "aliases": [
-        "巴徳"
-      ],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "开服必玩"
-      ],
-      "note": "S11今天返场必玩系列。",
-      "publishedAt": "2026-09-29T11:59:58Z",
-      "code": "#S11剪纸巴徳（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNzMyNTQ4NDk4",
-      "updatedAt": "2026-10-01T08:24:58.244Z"
-    },
-    {
-      "n": "S11剪纸天使",
-      "mainC": [
-        "天使"
-      ],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "转职"
-      ],
-      "note": "老玩家应该不用教，推荐有剪纸转或者有冒险启程并且胡剪纸牌时玩。",
-      "publishedAt": "2026-09-29T11:59:58Z",
-      "code": "#S11剪纸天使（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMTQ1OTI5"
-    },
-    {
-      "n": "S11斗射卡莎",
-      "mainC": [
-        "卡莎"
-      ],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "开服必玩"
-      ],
-      "note": "S11最经典的阵容！推荐吃吉星或者装备多打出连胜时去玩！",
-      "publishedAt": "2026-09-29T11:59:58Z",
-      "code": "#S11斗射卡莎（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMTgwMDA2"
-    },
-    {
-      "n": "S11天龙九五",
-      "mainC": [],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "九五"
-      ],
-      "note": "当前版本最强九五阵容，适合把把硬玩。",
-      "publishedAt": "2026-09-29T11:59:58Z",
-      "code": "#S11天龙九五（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwOTQwMTM1ODcy",
-      "updatedAt": "2026-10-02T12:38:16Z"
-    },
-    {
-      "n": "S11夜幽拉露恩",
-      "mainC": [
-        "拉露恩"
-      ],
-      "aliases": [],
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "isRec": false,
-      "isRune": false,
-      "tags": [
-        "转职"
-      ],
-      "note": "推荐有夜幽转，或者前期连胜装备合适8人口有瑟提玩。",
-      "publishedAt": "2026-09-29T11:59:58Z",
-      "code": "#S11夜幽拉露恩（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwNjgyMzM1MjM4"
-    },
-    {
       "n": "S18黑暗仪式蜘蛛",
       "season": "s18",
       "cat": "cur",
@@ -831,25 +640,6 @@
       ],
       "note": "开局野怪给的多，小蓝能2星，大经济海克斯/一波带走俩。",
       "code": "#S18高野怪2.0（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwODM3Njg1NDkz",
-      "isRec": false,
-      "isRune": false,
-      "publishedAt": "2026-10-01T08:24:58.244Z"
-    },
-    {
-      "n": "S11山神莉莉娅",
-      "season": "s11",
-      "cat": "s11",
-      "ver": "V18.3",
-      "tier": "T0+",
-      "mainC": [
-        "莉莉娅"
-      ],
-      "aliases": [],
-      "tags": [
-        "冷门"
-      ],
-      "note": "最新冷门上分T0阵容，也算是一套84盗宗阵容了，后期很容易追3星。",
-      "code": "#S11山神莉莉娅（蚊酱）#MjE5OTkwMzU4Nzg0MzIzNzkxNzkwODQyMTU1NDkz",
       "isRec": false,
       "isRune": false,
       "publishedAt": "2026-10-01T08:24:58.244Z"

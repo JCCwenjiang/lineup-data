@@ -46,7 +46,7 @@ body{background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI
 <header class="wrap">
  <div class="brand-row"><button class="brand-avatar-button" aria-label="联系蚊酱" onclick="navigatePage('contact')"><img class="brand-avatar" src="avatar.png" alt="蚊酱"></button><h1>蚊酱阵容库</h1><p class="sub">找阵容，看强度，一键复制。</p></div>
 
- <nav class="seasons" aria-label="赛季选择"><button class="season" data-season="s18" aria-pressed="true"><span class="season-number">S18</span><small>自然之力</small></button><button class="season" data-season="s11" aria-pressed="false"><span class="season-number">S11</span><small>画之灵</small></button><button class="season" data-season="s165" aria-pressed="false"><span class="season-number">S16.5</span><small>英雄联盟传奇</small></button></nav>
+ <nav class="seasons" aria-label="赛季选择"><button class="season" data-season="s19" aria-pressed="true"><span class="season-number">S19</span><small>棱彩音乐盛典</small></button><button class="season" data-season="s18" aria-pressed="false"><span class="season-number">S18</span><small>自然之力</small></button><button class="season" data-season="s165" aria-pressed="false"><span class="season-number">S16.5</span><small>英雄联盟传奇</small></button></nav>
  <div class="announcement" id="announcement"><div class="notice-window"><div class="notice-track" id="notice-track"><div class="notice-group" id="notice-text"></div><div class="notice-group" id="notice-duplicate" aria-hidden="true"></div></div></div></div><div class="searchline"><svg class="search-magnifier" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><label for="search" class="sr">搜索阵容名称或说明</label><input id="search" type="search" placeholder="搜索阵容名称或主C名字，如：月男/豹女" autocomplete="off"><button class="quiet" id="clear">清空</button></div>
  <nav class="tabs" id="tabs" aria-label="阵容分类"></nav>
 </header>
@@ -57,7 +57,7 @@ body{background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI
 'use strict';
 const $=id=>document.getElementById(id);
 let data=[],loaded=false,busy=false,lastPayload='',toastTimer;
-const state={season:'s18',tab:'all',query:''};
+const state={season:'s19',tab:'all',query:''};
 const categories=[['all','全部'],['cur','当前版本'],['rec','今日推荐'],['hex','符文专属'],['hist','历史版本']];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function seasonOf(d){return d.season || (d.cat==='s165'?'s165':d.cat==='s11'?'s11':'s18');}
